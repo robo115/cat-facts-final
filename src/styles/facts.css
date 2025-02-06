@@ -1,0 +1,37 @@
+.facts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5dc;
+    padding: 20px;
+  }
+  
+.facts-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+}
+  
+.facts-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+  
+.facts-list {
+    list-style: none;
+    padding: 0;
+}
+  
+.facts-list li {
+    background: #fff8dc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

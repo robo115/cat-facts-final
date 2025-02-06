@@ -1,0 +1,28 @@
+.about-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .about-list li {
+    background: #fff8dc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .breed-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .breed-info {
+    font-size: 1rem;
+    color: #555;
+  }
